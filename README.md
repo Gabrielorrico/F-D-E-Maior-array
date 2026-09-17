@@ -9,7 +9,7 @@
 
 > Executar a aplicação no terminal usando o GCC
 ```bash
-gcc archive.c -o output
+gcc main.c -o output
 ```
 
 > Executar a aplicação no terminal usando o Python
