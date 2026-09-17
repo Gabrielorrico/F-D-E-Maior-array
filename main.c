@@ -52,6 +52,7 @@ void carregar_desafio_maximo() {
     mem[0x17] = 67;
 
 
+
     int idx = 0;
 
     mem[idx++] = 0x01; mem[idx++] = 1; mem[idx++] = 0x10; 
@@ -88,12 +89,14 @@ int main() {
     mem[0x17] = 67;
 
 
+
     mem[0] = 0x07; mem[1] = 0x30; mem[2] = 0; 
 
     int p = 0x30; 
 
 
     mem[p++] = 0x01; mem[p++] = 1; mem[p++] = 0x10; 
+
 
 
     mem[p++] = 0x01; mem[p++] = 2; mem[p++] = 0x11;  
@@ -111,7 +114,9 @@ int main() {
     mem[p++] = 0x01; mem[p++] = 2; mem[p++] = 0x16;  
     mem[p++] = 0x01; mem[p++] = 2; mem[p++] = 0x17;  
 
+
     mem[p++] = 0x02; mem[p++] = 1; mem[p++] = 0x20;  
+
 
     mem[p++] = 0x0A; mem[p++] = 0; mem[p++] = 0; 
 
@@ -123,7 +128,11 @@ int main() {
         trace(op, a, b);
     }
 
+
     printf("\nMaior valor gravado em 0x20 (32 em decimal): %d\n", mem[0x20]);
 
+
     return 0;
+
+    
 }
