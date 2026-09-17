@@ -5,19 +5,15 @@
 ### Davi Maltez
 ### Luis Henrique alves Sampaio Santos
 ### Luiz Henrique Lins da Costa
-### Lucas
+### Lucas Samuel Pereira Alves
+### Brenno Dornelas
 
-> Executar a aplicação no terminal usando o GCC
+# > Executar a aplicação no terminal usando o GCC
 ```bash
-gcc main.c -o output
-```
-
-> Executar a aplicação no terminal usando o Python
-```bash
-python archive.py
+gcc main.c -o main
 ```
 
 ![alt text](fire.png)
 
 
-by Roni =]
+by Roni =] && alunos
